@@ -1,0 +1,41 @@
+
+.j .k{
+   background-color: blueviolet;
+   visibility: hidden;
+   position: relative;
+   top:10px;
+   left:20px;
+   
+}
+.j{
+   background-color: aqua;
+   visibility: visible;
+   z-index:1;
+   position:absolute;
+}
+.j:hover .k{
+   visibility: visible;
+}
+
+ /* chess task */
+  table,tr,td{
+    border: 2px solid;
+    border-collapse;
+    height:10vh;
+    width:50vw;
+    padding:2p
+ }
+ .a1:nth-of-type(2n){
+    background-color:rgb(216, 186, 186);
+ }
+ .a2:nth-of-type(2n+1){
+    background-color:lightgray;
+ }
+ .c{
+   position:relative;
+   left:20px
+ }
+ .c1{
+   font-size: 50px;
+ } 
+ 
